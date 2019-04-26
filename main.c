@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <SDL2/SDL.h>
+#include "SDL-mirror/include/SDL.h"
 
 static int init(SDL_Window **window, SDL_Surface **windowSurface, SDL_Renderer **renderer, int width, int height) {
     int success = 1;
